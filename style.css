@@ -1,0 +1,66 @@
+
+ .oval-button {
+        width: 120px;
+        height: 40px;
+        background: linear-gradient(to right, #5c5a59d3, #9b9897); /* 그라데이션 배경색 지정 */
+        color: #fff; /* 텍스트 색상 지정 */
+        border: none;
+        border-radius: 30px; /* 반지름을 절반으로 설정하여 타원형 모양으로 만듦 */
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease; /* 배경색 변화에 부드러운 효과 적용 */
+        
+}
+
+.oval-button:hover {
+    background: linear-gradient(to right, #392305, #392305);
+}
+
+.oval a{
+    color:white;
+    text-decoration:none;
+
+}
+
+.pics {      /* 전체 케러셀 */
+    width: 600px;
+    float: right;
+    position: relative;
+    right: 30%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    width: auto;
+    height: 350px; /* 이미지 높이 변경 */
+}
+
+.carousel-item {
+    width: auto;
+    height: 100%;
+}
+
+.d-block {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+
+
+/* 더보기 버튼 */
+.btn-secondary{
+    color: white;
+    border-color: #b7c1c7; 
+    
+}
+
+.btn-secondary:hover{
+    background-color: #392305;
+    color: white
+}
+
+
+
+  
